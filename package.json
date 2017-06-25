@@ -1,0 +1,37 @@
+{
+  "name": "stardust-tests",
+  "description": "Stardust: Test code for WebGL platform",
+  "author": {
+    "name": "Donghao Ren",
+    "email": "donghao.ren@gmail.com",
+    "url": "https://donghaoren.org/"
+  },
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stardust-vis/stardust-tests.git"
+  },
+  "scripts": {
+    "build:ts": "tsc -p src",
+    "build": "npm run build:ts",
+    "watch:ts": "tsc -w -p src",
+    "watch:webpack": "webpack -w",
+    "watch": "multirun-npm watch:ts watch:webpack"
+  },
+  "dependencies": {
+    "stardust-core": "^0.1.0",
+    "stardust-webgl": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^4.9.0",
+    "@types/react": "^15.0.28",
+    "@types/react-dom": "^15.5.0",
+    "d3": "^4.9.1",
+    "multirun": "^0.2.2",
+    "react": "^15.6.0",
+    "react-dom": "^15.6.0",
+    "typescript": "^2.0.0",
+    "webpack": "^2.6.1"
+  },
+  "license": "BSD-3-Clause"
+}
