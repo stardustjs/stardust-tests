@@ -133,4 +133,4 @@ registerTestCase({
     group: "Basic Charts",
     order: 0,
     construct: () => new IndexChartTestCase()
-}) 
+})
